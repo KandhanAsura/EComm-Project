@@ -1,12 +1,9 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import HomeContent from "./pages/home/home";
 import Product from "./pages/product/product";
 import { ToastContainer } from "react-toastify";
 import { LoginRegisterPage } from "./pages/loginRegister/LoginRegisterPage";
-import { ProtectedRoute } from "./common_components/protectedRoute/ProtectedRoute";
 import { MainLayout } from "./common_components/mainLayout/MainLayout";
 function App() {
   return (
