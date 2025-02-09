@@ -1,0 +1,15 @@
+.content {
+    text-align: center;
+    flex-grow: 1; /* Take up remaining space if content is less than screen height */
+  }
+  
+  #para{
+    size: 1rem;
+    background-color: rgb(74, 90, 235);
+    color: rgb(232, 232, 232);
+    text-align: center;
+  }
+  .highlight{
+    background-color: rgb(234, 71, 71);
+    font-weight: bold;
+  }

@@ -1,0 +1,14 @@
+.app-container {
+  display: flex;
+  flex-direction: column; /* Stack the elements vertically */
+  min-height: 100vh; /* Ensure the container takes at least the full height of the screen */
+}
+
+
+footer {
+  background-color: #877979;
+  color: #eeeeee;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto; /* Push footer to the bottom of the page */
+}

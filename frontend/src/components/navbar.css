@@ -1,0 +1,33 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(14, 19, 15);
+    padding: 1rem;
+}
+.navabr-logo a{
+    text-decoration: none;
+    color: rgb(40, 237, 255);
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.navbar-link{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar-link li{
+    margin: 0;
+}
+
+.navbar-link a{
+    text-decoration: none;
+    color: rgb(234, 232, 234);
+    transition: color 0.3s;
+}
+.navbar-link a:hover{
+    color: rgb(84, 73, 234);
+}
