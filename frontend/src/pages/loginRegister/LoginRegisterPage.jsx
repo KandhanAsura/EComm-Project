@@ -252,8 +252,8 @@ export const LoginRegisterPage = () => {
         <div className="panels-container">
           <div className="panel left-panel">
             <div className="content-ss">
-              <h3>Sample header</h3>
-              <p>Sample paragraph</p>
+              <h3>Don't have an account?</h3>
+              <p>Let's Dive IN</p>
               <button
                 className="btn-ss transparent"
                 id="sign-up-btn"
@@ -266,8 +266,8 @@ export const LoginRegisterPage = () => {
           </div>
           <div className="panel right-panel">
             <div className="content-ss">
-              <h3>Sample header</h3>
-              <p>Sample paragraph</p>
+              <h3>Already have an account?</h3>
+              <p>Get Inside</p>
               <button
                 className="btn-ss transparent"
                 id="sign-in-btn"
